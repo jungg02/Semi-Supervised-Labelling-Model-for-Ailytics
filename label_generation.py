@@ -3,7 +3,7 @@ import json
 from ultralytics import YOLO
 
 # Initialize model
-model = YOLO("yolov8n.pt") 
+model = YOLO("runs/detect/3_class_nano_1280/weights/best.pt") 
 
 def run_yolo_and_export_json(image_path, output_json_dir):
     # Run inference
@@ -61,4 +61,5 @@ output_folder = r"C:\Users\ailyt\Desktop\side project\semi-supervised labelling\
 for filename in os.listdir(input_folder):
     if filename.lower().endswith(('.jpg', '.jpeg')):
         image_path = os.path.join(input_folder, filename)
+
         run_yolo_and_export_json(image_path, output_folder)
