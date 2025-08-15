@@ -1,0 +1,11 @@
+train: C:\Users\ailyt\Desktop\side project\semi-supervised labelling\dataset\images/train
+val: C:\Users\ailyt\Desktop\side project\semi-supervised labelling\dataset\images/val
+test: C:\Users\ailyt\Desktop\side project\semi-supervised labelling\dataset\images/test
+
+nc: 3
+
+names:
+  0: worker
+  1: hardhat
+  2: vest
+
