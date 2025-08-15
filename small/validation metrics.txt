@@ -1,0 +1,5 @@
+Validation Metrics:
+  mAP50: 0.7631
+  mAP50-95: 0.4504
+
+57.8hrs
