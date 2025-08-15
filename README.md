@@ -19,7 +19,7 @@ Larger image resolutions(`imgsz=960` and `imgsz=1280`) were also chosen due to t
 
 Multiscale was also turned off as a separate experiment was conducted on the same dataset showing minor improvements in performance metrics while increasing training times by 2-3x.
 
-** Evaluation
+## Evaluation
 This experiment had showed that when it comes to developing a model for generating annotations, using a smaller model at a higher image size may prove to be more beneficial, allowing the model to create more bounding boxes while keeping false negatives low. This helps to reduce the time taken the data labelling step in the data pipeline. 
 
 
