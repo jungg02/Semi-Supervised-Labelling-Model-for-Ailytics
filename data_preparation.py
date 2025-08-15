@@ -1,4 +1,4 @@
-"" this file randomizes the dataset to prevent overfitting to certain conditions (lighting, angles, camera distances, backgrounds) and splits the data into training, val and test sets according to the specified split ratio. It also convverts the Labelme JSON files into YOLO text format to be used in model training ""
+# This file randomizes the dataset to prevent overfitting to certain conditions (lighting, angles, camera distances, backgrounds) and splits the data into training, val and test sets according to the specified split ratio. It also convverts the Labelme JSON files into YOLO text format to be used in model training. 
 
 import os
 import json
@@ -83,4 +83,5 @@ def prepare_dataset():
             convert_labelme_to_yolo(json_path, yolo_txt, labelme_classes, img_w, img_h)
 
 prepare_dataset()
+
 
