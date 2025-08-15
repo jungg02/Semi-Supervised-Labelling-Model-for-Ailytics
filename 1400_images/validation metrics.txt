@@ -2,4 +2,5 @@ Validation Metrics:
   mAP50: 0.7330
   mAP50-95: 0.4113
 
-33hrs
+
+Training time: 33hrs
