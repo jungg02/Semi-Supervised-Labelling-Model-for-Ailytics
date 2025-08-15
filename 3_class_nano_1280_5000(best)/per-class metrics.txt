@@ -1,0 +1,11 @@
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 
+                   all        500       4874      0.804      0.641      0.723      0.414
+                worker        500       2141      0.814      0.753      0.818      0.475
+               hardhat        449       1752       0.87      0.565      0.686      0.382
+                  vest        381        981      0.729      0.606      0.663      0.384
+
+
+Validation Metrics:
+  mAP50: 0.7225
+  mAP50-95: 0.4137
