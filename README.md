@@ -1,5 +1,5 @@
 # Semi-Supervised-Labelling-Model-for-Ailytics
-This project focuses on developing a decent-enough object detection model to carry out semi-supervised labelling, which is the generation of an initial first pass of annotations in Labelme JSON file format on an unseen batch of images. This lays the groundwork for data labelling, accelerating and improving efficiency of the manual process. The model utilises transfer learning from YOLOv8 pretrained weights trained on a dataset of 5000 images split into an 80/10/10 train/val/test ratio.
+This project focuses on developing an object detection model to carry out semi-supervised labelling, which is the generation of an initial first pass of annotations in Labelme JSON file format on an unseen batch of images. This lays the groundwork for data labelling, accelerating and improving efficiency of the manual process. The model utilises transfer learning from YOLOv8 pretrained weights trained on a dataset of 5000 images split into an 80/10/10 train/val/test ratio.
 
 The project also explores different combinations of hyperparameters to achieve the best performance in a resource constraint environment. Models were trained on an ACER NITRO V15 laptop with NVIDIA GeForce RTX 2050 (4BG VRAM), Cuda version: 12.3 and size of my dataset was limited to 5000 images.
 
